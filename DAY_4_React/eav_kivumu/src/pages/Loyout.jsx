@@ -1,13 +1,17 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 const Loyout = ({children}) => {
   return (
-    <div>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+    <div className=' w-full  min-h-screen flex  flex-col items-center ' >    
+      <nav className='   w-full  flex justify-evenly  py-2 shadow-md shadow-blue-400  bg-red ' >   
+        <Link to="/"  className=' heading   hover:text-black '>Home</Link>
+        <Link to="/blog" className=' heading   '>Blog</Link>  
+        <Link to="/contact"  className=' heading   '>Contact</Link>
+        <Link to="/other"  className=' heading   '>other</Link>
+        <Link to="/login"  className=' heading   ' >Login</Link> 
+
+
       </nav>
       {children} 
 
