@@ -1,0 +1,22 @@
+BASIC THING TO KNOW
+____________
+
+1. Web3.0
+2. WHY  blockChain
+3. what is blockChain
+4. cryptography
+5. type of cryptography: symmetric, asymmetric
+6. digital signature
+7. nodes in blockChain
+8. hashing
+9. markle tree
+10. Blockchain Architecture
+11. Types of Blockchain: public, private, consortium blockchain
+12. Consensus
+13. Proof of Work (PoW)
+14. Ethereum
+15. Smart Contract 
+17. Hyperledger
+
+
+
